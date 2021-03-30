@@ -18,7 +18,7 @@ def upload(request):
     for memory_file in files:
         root_name, ext = os.path.splitext(memory_file.name)
         if ext != '.jpg' or '.jpeg':
-            message = "【ERROR】: jpg以外の拡張子ファイルが指定されています。"
+            message = "【ERROR】: jpg以外の拡張子ファイルが指定されています。（{}）".format(ext)
             return render(request, 'pose_estimation/index.html', {"message": message})
  
     if request.method =='POST' and files:
