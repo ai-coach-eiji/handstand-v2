@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', TemplateView.as_view(template_name='pose_estimation/index.html'), name='index'),
-    #path('upload/', views.upload, name='upload'),
+    path('upload/', views.upload, name='upload'),
 ]
