@@ -13,14 +13,16 @@
                     <div class="alert alert-primary alert-dismissible" role="alert">
                     <h3 class=""><b>判定結果</b></h3>
                     <hr>
-                    <div class="mt-5 text-center">
-                        {% for data in result %}
-                            <div class="alert alert-warning">
-                                <img src="data:image/jpg;base64,{{data.0}}" width=100%" height="100%" />
-                                <p class="lead">【AIの判定結果】<br>この姿勢は、<font color=red><b>{{ data.1 }}</font></b>です。</p>
-                            </div>
-                        {% endfor %}
-                        <a class="btn btn-lg btn-secondary" href="{% url 'index' %}">戻る</a>
+                    <div class="container">
+                        <div class="mt-5 text-center">
+                            {% for data in result %}
+                                <div class="alert alert-warning">
+                                    <img src="data:image/jpg;base64,{{data.0}}" width=100%" height="100%" />
+                                    <p class="lead">【AIの判定結果】<br>この姿勢は、<font color=red><b>{{ data.1 }}</font></b>です。</p>
+                                </div>
+                            {% endfor %}
+                            <a class="btn btn-lg btn-secondary" href="{% url 'index' %}">戻る</a>
+                        </div>
                     </div>
                 </div>
             </div>
