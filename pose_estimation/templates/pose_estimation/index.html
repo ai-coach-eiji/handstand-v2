@@ -12,7 +12,7 @@
                     <ol>
                         <li style="margin-bottom:1em;" align="left"><font color=blue>（倒立した）</font>人物が映るjpgファイル画像をアップロードしてください。</li>
                         <p style="margin-bottom:1em;" align="left">※ ファイル画像の形式が<font color=red>「JPG」</font>になっていることを確認後、「判定」ボタンを押します。</p>
-                        <li style="margin-bottom:1em;" align="left">アップロードされた画像の特徴を基に<font color=blue>AIが姿勢（倒立or立位）を自動判定してくれます。</font></li>
+                        <li style="margin-bottom:1em;" align="left">アップロードされた画像の特徴を基に<font color=blue>AIが姿勢（倒立or立位）を自動的に判定します。</font></li>
                         <p style="margin-bottom:1em;" align="left">※ 画像における重力は下向きに働いていると想定します。</p>
                         <li style="margin-bottom:1em;" align="left">簡易アプリのため、上記のルールを無視した画像は正しく判定されません。</li>
                         <p style="margin-bottom:1em;" align="left">※ 画像ファイルは複数同時にアップロードできます。</p>
@@ -40,11 +40,11 @@
             <table align="center" border="0" cellpadding="5">
                 <tr>
                     <td>
-                        <img src="{% static 'pose_estimation/sample1.jpg' %}" width="200px" height="400px">
+                        <img src="{% static 'pose_estimation/sample1.jpg' %}" width="40%" height="400px">
                         <div class="caption">立位姿勢</div>
                     </td>
                     <td>
-                        <img src="{% static 'pose_estimation/sample2.jpg' %}" width="200px" height="400px">
+                        <img src="{% static 'pose_estimation/sample2.jpg' %}" width="40%" height="400px">
                         <div class="caption">倒立姿勢</div>
                     </td>
                 </tr>
