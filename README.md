@@ -5,6 +5,8 @@
 # Demo
 - The poses are based on the results of [mediapipe](https://github.com/google/mediapipe).
 
+![upright_posture](https://user-images.githubusercontent.com/81530619/113407210-cebaa900-93e7-11eb-953b-29fa4d35f351.png)![handstand](https://user-images.githubusercontent.com/81530619/113407202-cc584f00-93e7-11eb-803d-1ac7c8600204.png)
+
 # Usage
 1. Choose an image.jpg(or .png) from your device and upload.
 2. Enter the buttom '送信'.
