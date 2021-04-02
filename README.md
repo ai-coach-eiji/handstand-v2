@@ -35,7 +35,7 @@
 
 
 # Author
-北島栄司 [https://twitter.com/1220castillo](https://twitter.com/1220castillo)
+北島栄司 （[https://twitter.com/1220castillo](https://twitter.com/1220castillo)）
 
 
 # License
