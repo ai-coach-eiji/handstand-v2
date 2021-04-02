@@ -17,6 +17,8 @@ def upload(request):
     # 簡易エラーチェック（jpg拡張子）
     for memory_file in files:
         root_name, ext = os.path.splitext(memory_file.name)
+        if ext == '.png':
+            continue
         if ext == '.jpeg':
             continue
         if ext != '.jpg':
@@ -34,6 +36,8 @@ def upload(request):
         labels=[]
         for image in files:
             image = Image.open(image)
+            if ext == '.png':
+                image = image.convert('RGB')
             image = pil2cv(image)
             # Convert the BGR image to RGB and process it with MediaPipe Pose.
             results = pose.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
