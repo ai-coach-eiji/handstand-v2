@@ -13,7 +13,7 @@ This application tells us the pose appears in the image. The poses are based on 
 - [ ] create a new model of pose classification
 
 # Reference
-- [mediapipe](https://github.com/google/mediapipe)
+- [MediaPipe](https://github.com/google/mediapipe)
 
 
 # Author
@@ -21,4 +21,4 @@ This application tells us the pose appears in the image. The poses are based on 
 
 
 # License
-is under 
+This application is under [Apache License 2.0](https://github.com/ai-coach-eiji/handstand-v2/blob/main/LICENSE).
