@@ -39,5 +39,5 @@
 
 
 # License
-This application is under [Apache License 2.0](https://github.com/ai-coach-eiji/handstand-v2/blob/main/LICENSE).
-The icon was created in [かぶりっこメーカー](https://www.iconpon.com/iconmaker/km/)
+- This application is under [Apache License 2.0](https://github.com/ai-coach-eiji/handstand-v2/blob/main/LICENSE).
+- The icon was created in [かぶりっこメーカー](https://www.iconpon.com/iconmaker/km/).
