@@ -17,7 +17,7 @@ This application tells us the pose appears in the image. The poses are based on 
 
 
 # Author
-北島栄司（[Twitter](https://twitter.com/1220castillo））
+北島栄司 [Twitter](https://twitter.com/1220castillo)
 
 
 # License
