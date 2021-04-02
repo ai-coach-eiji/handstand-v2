@@ -21,11 +21,11 @@
 
 
 # ToDo (including future works)
-- [x] ~~pose estimation in the image~~
-- [ ] calculate the body joint angles
-- [ ] pose estimation in the video
-- [ ] replace mediapipe with deeplabcut
-- [ ] create a new model of pose classification
+- [x] ~~Pose estimation in the image~~
+- [ ] Calculate the body joint angles
+- [ ] Pose estimation in the video
+- [ ] Replace mediapipe with deeplabcut
+- [ ] Create a new model of pose classification
 
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
@@ -35,7 +35,7 @@
 
 
 # Author
-北島栄司 [Twitter](https://twitter.com/1220castillo)
+北島栄司 [https://twitter.com/1220castillo](https://twitter.com/1220castillo)
 
 
 # License
