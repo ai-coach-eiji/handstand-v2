@@ -14,7 +14,6 @@
 4. The app return the result.
    
    Result: 
-   
    image.jpg with human-pose skeleton and the pose(handstand or upright posture).
 
 ![pose_demo](https://user-images.githubusercontent.com/81530619/113387837-0e719880-93c8-11eb-85be-a56454b2db0f.png)
@@ -22,7 +21,7 @@
 
 
 # ToDo (including future works)
-- [x] pose estimation in the image
+~~- [x] pose estimation in the image~~
 - [ ] calculate the body joint angles
 - [ ] pose estimation in the video
 - [ ] replace mediapipe with deeplabcut
