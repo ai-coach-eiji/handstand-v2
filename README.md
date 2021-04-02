@@ -1,5 +1,7 @@
 # handstand-v2
-This application tells us the pose appears in the image. The poses are based on the results of mediapipe.
+This application tells us the pose appears in the image. The poses are based on the results of [mediapipe](https://github.com/google/mediapipe).
+
+
 
 # To Do (including future works)
 - [x] pose estimation in the image
