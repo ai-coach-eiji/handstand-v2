@@ -21,7 +21,7 @@
 
 
 # ToDo (including future works)
-~~- [x] pose estimation in the image~~
+~~\- [x] pose estimation in the image~~
 - [ ] calculate the body joint angles
 - [ ] pose estimation in the video
 - [ ] replace mediapipe with deeplabcut
