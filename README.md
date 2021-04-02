@@ -21,7 +21,7 @@
 
 
 # ToDo (including future works)
-- ~~[x] pose estimation in the image~~
+~~- [x] pose estimation in the image~~
 - [ ] calculate the body joint angles
 - [ ] pose estimation in the video
 - [ ] replace mediapipe with deeplabcut
@@ -30,7 +30,8 @@
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
 - App design: [sinyblog](https://sinyblog.com/django/api_001/)
-- Coding: [derodero24](https://qiita.com/derodero24/items/f22c22b22451609908ee)
+- App config: [bagelee](https://bagelee.com/programming/pwa/ios-korekara-pwa/)
+- Opencv coding: [derodero24](https://qiita.com/derodero24/items/f22c22b22451609908ee)
 
 
 # Author
