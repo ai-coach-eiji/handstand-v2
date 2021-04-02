@@ -8,13 +8,13 @@
 ![upright_posture](https://user-images.githubusercontent.com/81530619/113407475-51436880-93e8-11eb-98c0-0c00b1c4fd09.png)  ![handstand](https://user-images.githubusercontent.com/81530619/113407516-64563880-93e8-11eb-96c3-890c1a06da7e.png)
 
 # Usage
-1. Choose an image.jpg(or .png) from your device and upload.
-2. Enter the buttom '判定'.
+1. Choose an image from your device and upload.
+2. Tap the buttom '判定'.
 3. Wait for a moment.
 4. The app return the result.
    
    Result: 
-   image.jpg with human-pose skeleton and the pose(handstand or upright posture).
+   Human-pose skeleton and the pose.
 
 ![pose_demo](https://user-images.githubusercontent.com/81530619/113387837-0e719880-93c8-11eb-85be-a56454b2db0f.png)
 
