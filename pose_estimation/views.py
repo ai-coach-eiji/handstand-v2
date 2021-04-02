@@ -30,7 +30,7 @@ def upload(request):
         pose = mp_pose.Pose(static_image_mode=True, min_detection_confidence=0.5)
         # Prepare DrawingSpec for drawing the face landmarks later.
         mp_drawing = mp.solutions.drawing_utils 
-        drawing_spec = mp_drawing.DrawingSpec(thickness=2, circle_radius=5, color=0)
+        drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=5, color=0)
 
         judged_list = []
         labels=[]
@@ -50,7 +50,7 @@ def upload(request):
             
             # Draw pose landmarks.
             annotated_image = image.copy()
-            print("shape:", image.shape)
+            #print("shape:", image.shape)
             mp_drawing.draw_landmarks(image=annotated_image,
                 landmark_list=results.pose_landmarks,
                 connections=mp_pose.POSE_CONNECTIONS,
@@ -89,7 +89,10 @@ def upload(request):
             ret, jpg = cv2.imencode('.jpg', image)
             src = base64.b64encode(jpg.tostring())
             src = str(src)[2:-1]
-            result.append((src, label))
+
+            # 画像サイズ
+            height, width, _ = image.shape
+            result.append((src, label, width, height))
  
         context = {'result': result}
         return render(request, 'pose_estimation/result.html', context)
@@ -102,8 +105,8 @@ def judge_pose(image, r_eye_coord, r_ankle_coord):
         pose_judged = 'handstand'
     if r_eye_coord[1] < r_ankle_coord[1]:
         pose_judged = 'upright posture'
-    cv2.putText(image, 'Pose: ' + pose_judged, (10, 80),
-               cv2.FONT_HERSHEY_SIMPLEX, 2, (255, 255, 255), 3,
+    cv2.putText(image, pose_judged, (10, 40),
+               cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 1,
                cv2.LINE_AA)
     return image, pose_judged
 
