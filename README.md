@@ -18,7 +18,7 @@
 
 ![pose_demo](https://user-images.githubusercontent.com/81530619/113387837-0e719880-93c8-11eb-85be-a56454b2db0f.png)
 
-- You can find the app from this link ([handstand app](https://ai-coach-eiji-handstand-v2.herokuapp.com)).
+- You can find the app here ([handstand app](https://ai-coach-eiji-handstand-v2.herokuapp.com)).
 
 
 
