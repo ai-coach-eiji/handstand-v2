@@ -25,7 +25,8 @@
 - [ ] create a new model of pose classification
 
 # Reference
-- [MediaPipe](https://github.com/google/mediapipe)
+- Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
+- App design: [sinyblog](https://sinyblog.com/django/api_001/)
 
 
 # Author
@@ -34,4 +35,3 @@
 
 # License
 - This application is under [Apache License 2.0](https://github.com/ai-coach-eiji/handstand-v2/blob/main/LICENSE).
-- App design: [sinyblog](https://sinyblog.com/django/api_001/)
