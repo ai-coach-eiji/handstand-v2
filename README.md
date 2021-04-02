@@ -9,7 +9,7 @@
 
 # Usage
 1. Choose an image.jpg(or .png) from your device and upload.
-2. Enter the buttom '送信'.
+2. Enter the buttom '判定'.
 3. Wait for a moment.
 4. The app return the result.
    
@@ -31,6 +31,7 @@
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
 - App design: [sinyblog](https://sinyblog.com/django/api_001/)
+- Coding: [derodero24](https://qiita.com/derodero24/items/f22c22b22451609908ee)
 
 
 # Author
