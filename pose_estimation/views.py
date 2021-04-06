@@ -11,6 +11,10 @@ def index(request):
     context = {'title':'姿勢判定アプリ'}
     return render(request, 'pose_estimation/index.html', context)
 
+def terms_of_service(request):
+    context = {'title':'利用規約'}
+    return render(request, 'pose_estimation/tos.html', context)
+
 def upload(request):  
     # 画像データの取得
     files = request.FILES.getlist("files[]")
@@ -94,7 +98,9 @@ def upload(request):
             height, width, _ = image.shape
             result.append((src, label, width, height))
  
-        context = {'result': result}
+        context = {
+            'title': '判定結果',
+            'result': result}
         return render(request, 'pose_estimation/result.html', context)
     else:
         return redirect('index')
