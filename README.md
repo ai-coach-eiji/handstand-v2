@@ -18,6 +18,8 @@
 
 ![pose_demo](https://user-images.githubusercontent.com/81530619/113387837-0e719880-93c8-11eb-85be-a56454b2db0f.png)
 
+- You can find the app here ([handstand app](https://ai-coach-eiji-handstand-v2.herokuapp.com)).
+
 
 
 # ToDo (including future works)
@@ -32,6 +34,8 @@
 - App design: [sinyblog](https://sinyblog.com/django/api_001/)
 - App config: [bagelee](https://bagelee.com/programming/pwa/ios-korekara-pwa/)
 - Opencv coding: [derodero24](https://qiita.com/derodero24/items/f22c22b22451609908ee)
+- Terms of service1: [topcourt-low](https://topcourt-law.com/terms_of_service/user_policy)
+- Terms of service2: [yuyauver98.me](https://yuyauver98.me/coding-rule01/)
 
 
 # Author
@@ -40,4 +44,4 @@
 
 # License
 - This application is under [Apache License 2.0](https://github.com/ai-coach-eiji/handstand-v2/blob/main/LICENSE).
-- The icon was created in [かぶりっこメーカー](https://www.iconpon.com/iconmaker/km/).
+- The icon source is from [逆立ちピクトグラム](http://pictogram2.com/?p=392).
