@@ -34,6 +34,8 @@
 - App design: [sinyblog](https://sinyblog.com/django/api_001/)
 - App config: [bagelee](https://bagelee.com/programming/pwa/ios-korekara-pwa/)
 - Opencv coding: [derodero24](https://qiita.com/derodero24/items/f22c22b22451609908ee)
+- Terms of service1: [topcourt-low](https://topcourt-law.com/terms_of_service/user_policy)
+- Terms of service2: [yuyauver98.me](https://yuyauver98.me/coding-rule01/)
 
 
 # Author
