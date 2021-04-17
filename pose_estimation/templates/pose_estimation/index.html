@@ -3,16 +3,16 @@
 {% load static %}
 {% block content %}
 <div class="content-wrapper">
-    <div class="container-fluid">
+    <div class="container">
         <div class="mt-5 text-center">
-            <div class="alert alert-primary alert-dismissible" role="alert">
+            <div class="alert alert-primary mx-auto" role="alert">
                 <p style="margin-bottom:1em;"><h3><b>姿勢判定アプリの説明</b></h3></p>
                 <p style="margin-bottom:1em;" align="center"><a href="{% url 'tos' %}">利用規約</a>をご確認の上、アプリをご利用ください。</p>
                 <hr>
                 <h4>
                     <ol>
                         <li style="margin-bottom:1em;" align="left"><font color=blue>（倒立した）</font>人物が映る画像ファイルをアップロードしてください。</li>
-                        <p style="margin-bottom:1em;" align="left">※ 画像ファイルの形式が<font color=red>「jpg」</font>になっていることを確認後、「判定」ボタンを押します。</p>
+                        <p style="margin-bottom:1em;" align="left">※ 画像ファイルを選択後、「判定」ボタンを押します。</p>
                         <li style="margin-bottom:1em;" align="left">アップロードされた画像の特徴を基に<font color=blue>AIが姿勢（倒立or立位）を自動的に判定します。</font></li>
                         <p style="margin-bottom:1em;" align="left">※ 画像における重力は下向きに働いていると想定します。</p>
                         <li style="margin-bottom:1em;" align="left">簡易アプリのため、上記のルールを無視した画像は正しく判定されません。</li>
