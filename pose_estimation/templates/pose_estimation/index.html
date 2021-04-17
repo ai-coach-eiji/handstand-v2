@@ -26,7 +26,9 @@
             <div style="display:inline-flex">
                 <input type="file" name="files[]" multiple>
             </div>
-            <input type="submit" class="btn btn-lg btn-danger" value="判定">
+            <div class="pt-3">
+                <input type="submit" class="btn btn-lg btn-danger" value="判定">
+            </div>
             {% csrf_token %}
         </form>
         {% if message %}
