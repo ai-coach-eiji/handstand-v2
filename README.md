@@ -23,11 +23,23 @@
 
 
 # ToDo (including future works)
-- [x] ~~Pose estimation in the image~~
-- [ ] Calculate the body joint angles
-- [ ] Pose estimation in the video
-- [ ] Replace mediapipe with deeplabcut
-- [ ] Create a new model of pose classification
+- [x] ~~Button decoration~~
+- [x] ~~Video weight reduction~~
+- [x] ~~Progress bar~~
+- [x] ~~Labeling the estimated videos~~
+- [x] ~~Image layout~~
+- [x] ~~Loading modal~~
+- [ ] Confirmation modal
+- [x] ~~Voice processing~~
+- [x] ~~Mute implementation~~
+- [x] ~~Thumbnail from video~~
+- [x] ~~Implementation of video caption~~
+- [ ] Codec problem
+- [ ] Video duration
+- [ ] Dealing the muted video
+- [ ] Implementation of cancel event
+- [ ] Fixing the background
+
 
 # Reference
 - Pose estimation: [MediaPipe](https://github.com/google/mediapipe)
